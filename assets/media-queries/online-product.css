@@ -1,0 +1,341 @@
+/************************************/
+/* bellow 1344px (smaller desktop)*/
+/************************************/
+@media(max-width:84em) {
+    /* feature section */
+
+    .feture-text {
+        font-size: 2.4rem;
+    }
+
+    .feture {
+        padding: 2rem 4rem;
+    }
+
+    /* browser category */
+    .prod-btn {
+        margin: 0 5rem 1rem 5rem;
+        padding: 1rem 2.2rem;
+        font-size: 1.4rem;
+    }
+
+
+    /* need a solution sec tion */
+
+    .solution {
+
+        gap: 22rem;
+
+    }
+
+    .sol-head {
+        font-size: 4rem;
+
+    }
+
+    .sol-btn {
+
+        font-size: 1.6rem;
+
+    }
+}
+
+/************************************/
+/* bellow 1304px (for adjust ment)*/
+/************************************/
+@media(max-width:81.5em) {
+
+
+
+    /* browser category */
+    .prod-btn {
+        padding: 1rem 2rem;
+        font-size: 1.3rem;
+    }
+
+    /* need a solution */
+    .solution {
+        gap: 16rem;
+    }
+}
+
+/************************************/
+/* bellow 1200px (for landscap tablets)*/
+/************************************/
+@media(max-width:75em) {
+
+    /*feture timing  */
+    .feture {
+        padding: 2rem 3rem;
+    }
+
+    .feture-text {
+        font-size: 2.2rem;
+    }
+
+    /* browser category */
+    .prod-btn {
+        padding: 1rem 1rem;
+        font-size: 1.2rem;
+    }
+
+    .selling-name {
+
+        font-size: 2.4rem;
+
+    }
+
+    /* need c.. solution */
+    .sol-head {
+        font-size: 3.6rem;
+    }
+
+    .sol-btn {
+        font-size: 1.4rem;
+    }
+
+    .solution {
+        gap: 13rem;
+    }
+}
+
+/************************************/
+/* bellow 944px (for  tablets)*/
+/************************************/
+@media(max-width:59em) {
+
+    /* feture timing */
+    .feture-text {
+        font-size: 1.6rem;
+    }
+
+    /* browser category */
+    .prod-btn {
+        padding: 1rem 2rem;
+        font-size: 1.2rem;
+        color: #FFFFFF;
+        margin: 0 2rem 1rem 2rem;
+
+    }
+
+    .products {
+
+        padding: 6rem 9rem;
+    }
+
+    /* need c..  solution */
+
+    .solution {
+        flex-direction: column;
+    }
+
+    .sol-head {
+        font-size: 5.4rem;
+    }
+
+    .solution {
+        gap: 8rem;
+    }
+}
+
+/************************************/
+/* bellow 704px (for  samaller tablets)*/
+/************************************/
+@media(max-width:44em) {
+
+    /* feture timing */
+    .feture-text {
+        font-size: 1.3rem;
+
+    }
+
+    .feture {
+        padding: 2rem 0.2rem;
+    }
+
+    /*browser category */
+    .products {
+        padding: 2rem 4rem;
+        gap: 4rem;
+    }
+
+    /* need c.. solution*/
+    .sol-head {
+        font-size: 4rem;
+    }
+
+    .solution {
+        gap: 5rem;
+        padding: 8rem 3.4rem;
+    }
+
+    .sol-dis {
+        text-align: center;
+
+    }
+
+}
+
+/************************************/
+/* bellow 544px (for  phones)*/
+/************************************/
+@media(max-width:34em) {
+
+    /* hero section */
+    .online-title {
+        font-size: 5.4rem;
+    }
+
+    .online-dis {
+        font-size: 2.6rem;
+    }
+
+    .btn-about {
+        font-size: 1.4rem;
+    }
+
+    .btn-about-2 {
+        font-size: 1.4rem;
+    }
+
+    /* feture timing */
+    .feture-text {
+        font-size: 2rem;
+    }
+
+    .feture {
+        row-gap: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        padding: 2rem 2rem;
+    }
+
+    .feture-flex {
+        gap: 2rem;
+
+    }
+
+    /* browser category */
+    .products {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* need c.. solution */
+
+    .sol-head {
+        font-size: 4rem;
+        line-height: 1;
+        padding-bottom: 3rem;
+        text-align: center;
+    }
+
+    .sol-dis {
+        font-size: 2.4rem;
+        color: #FFFFFF;
+        text-align: center;
+    }
+}
+
+/************************************/
+/* bellow 400px (for  phones)*/
+/************************************/
+
+@media(max-width:25em) {
+
+    /* hero section */
+
+
+    .online-title {
+        font-size: 4.2rem;
+    }
+
+    .online-dis {
+        font-size: 2.2rem;
+    }
+
+    /* feture timing*/
+    .feture-text {
+        font-size: 1.6rem;
+    }
+
+    /* browser category */
+    .heading-primary {
+        font-size: 3rem;
+    }
+
+
+    .products {
+        gap: 2rem;
+        padding: 2rem 1rem;
+    }
+
+
+    /*need c.. solution  */
+
+    .sol-head {
+        line-height: 1.5;
+        font-size: 2.8rem;
+    }
+
+    .sol-dis {
+        font-size: 2rem;
+
+    }
+
+}
+
+/************************************/
+/* bellow 320px (for  phones)*/
+/************************************/
+@media(max-width:20em) {
+
+    /* hero section */
+    .hero {
+        padding: 7rem 0;
+    }
+
+    .online-title {
+        font-size: 3.4rem;
+        font-weight: 600;
+        padding-bottom: 2rem;
+    }
+
+    .online-dis {
+        font-weight: 400;
+        font-size: 2rem;
+    }
+
+    .btn-about {
+        font-size: 1.4rem;
+        padding: 0.8rem 4rem;
+
+    }
+
+
+    /* feture timing */
+    .feture-text {
+        font-size: 1.6rem;
+    }
+
+    /* browser catergory */
+    .selling-name {
+        font-size: 1.4rem;
+    }
+
+    .prod-btn {
+        padding: 1rem 1rem;
+        font-size: 1rem;
+    }
+
+    /* nees c.. solution */
+
+    .solution {
+        gap: 2rem;
+        padding: 5rem 0rem;
+    }
+
+    .sol-dis {
+        font-size: 1.8rem;
+    }
+}

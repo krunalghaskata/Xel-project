@@ -1,0 +1,467 @@
+/* bellow 1344px (smaller desktop)*/
+/************************************/
+@media(max-width:84em) {
+    /* feature section */
+
+    .feture-text {
+        font-size: 2.4rem;
+    }
+
+    .feture {
+        padding: 2rem 4rem;
+    }
+
+    /* section-1 sec*/
+    .left-right {
+        gap: 1rem;
+    }
+
+    /*.product-des   section   */
+    .product-des {
+
+        padding: 5rem 2rem;
+    }
+
+    /* need a solution sec tion */
+
+    .solution {
+        gap: 22rem;
+    }
+
+    .sol-head {
+        font-size: 4rem;
+    }
+
+    .sol-btn {
+        font-size: 1.6rem;
+    }
+}
+
+/************************************/
+/* bellow 1304px (for adjust ment)*/
+/************************************/
+@media(max-width:81.5em) {
+
+    /*   .product-des   section   */
+    li {
+        font-size: 1.8rem;
+    }
+
+    .form-grid {
+        width: 65rem;
+    }
+
+    /* need a solution */
+    .solution {
+        gap: 16rem;
+    }
+}
+
+/************************************/
+/* bellow 1200px (for landscap tablets)*/
+/************************************/
+@media(max-width:75em) {
+
+    /* section-1   -sec */
+    .palate {
+        width: 80%;
+    }
+
+    .form-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        width: 60rem;
+    }
+
+    .left-right {
+        padding: 0rem 3rem;
+    }
+
+    /*feture timing  */
+    .feture {
+        padding: 2rem 3rem;
+    }
+
+    .feture-text {
+        font-size: 2.2rem;
+    }
+
+    /*.product-des   section   */
+    .product-des {
+        margin: 0 15rem;
+    }
+
+    /* need c.. solution */
+    .sol-head {
+        font-size: 3.6rem;
+    }
+
+    .sol-btn {
+        font-size: 1.4rem;
+    }
+
+    .solution {
+        gap: 13rem;
+    }
+}
+
+/************************************/
+/* bellow 944px (for  tablets)*/
+/************************************/
+@media(max-width:59em) {
+
+    /* section-1 */
+
+    .left-right {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .left-right {
+        padding: 0rem 9rem;
+    }
+
+    /* feture timing */
+    .feture-text {
+        font-size: 1.6rem;
+    }
+
+    /*option section  */
+    .header-links {
+        font-size: 1.6rem;
+    }
+
+    .option {
+        padding: 0px 5rem;
+    }
+
+    /*.product-des   section   */
+    .product-head {
+        font-size: 3rem;
+    }
+
+    .product-line {
+        font-size: 1.8rem;
+    }
+
+    li {
+        font-size: 1.6rem;
+    }
+
+    .product-des {
+        margin: 0 7rem;
+    }
+
+    /* need c..  solution */
+
+    .solution {
+        flex-direction: column;
+    }
+
+    .sol-head {
+        font-size: 5.4rem;
+    }
+
+    .solution {
+        gap: 8rem;
+    }
+}
+
+/************************************/
+/* bellow 704px (for  samaller tablets)*/
+/************************************/
+@media(max-width:44em) {
+
+    /* section-1 sec */
+    .left-right {
+        padding: 0rem 7rem;
+    }
+
+    /* feture timing */
+    .feture-text {
+        font-size: 1.3rem;
+    }
+
+    .feture {
+        padding: 2rem 0.2rem;
+    }
+
+    /* option section */
+    .option {
+        padding: 0px 1rem;
+    }
+
+    /*.product-des   section   */
+    .product-flex {
+        flex-direction: column;
+    }
+
+    /* need c.. solution*/
+    .sol-head {
+        font-size: 4rem;
+    }
+
+    .solution {
+        gap: 5rem;
+        padding: 8rem 3.4rem;
+    }
+
+    .sol-dis {
+        text-align: center;
+
+    }
+
+}
+
+/************************************/
+/* bellow 544px (for  phones)*/
+/************************************/
+@media(max-width:34em) {
+
+    /* section-1  -sec*/
+    .form-grid {
+        width: 100%;
+    }
+
+    .step-2 {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .left-img-sec {
+        padding: 0rem 0 0 0;
+    }
+
+    .head {
+        font-size: 3.2rem;
+    }
+
+    .label {
+        font-size: 1.4rem;
+    }
+
+    aside {
+        flex-direction: column;
+        padding: 4rem 1rem 4rem 0;
+    }
+
+    .left-img {
+        height: 39rem;
+        width: 46rem;
+    }
+
+    .left-right {
+        padding: 0rem 3rem;
+    }
+
+    /* feture timing */
+    .feture-text {
+        font-size: 2rem;
+    }
+
+    .feture {
+        row-gap: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        padding: 2rem 2rem;
+    }
+
+    .feture-flex {
+        gap: 2rem;
+
+    }
+
+    /*.product-des   section   */
+    ul {
+        padding: 2rem 1rem;
+    }
+
+    .product-des {
+        margin: 0 4rem;
+    }
+
+    /* need c.. solution */
+
+    .sol-head {
+        font-size: 4rem;
+        line-height: 1;
+        padding-bottom: 3rem;
+        text-align: center;
+    }
+
+    .sol-dis {
+        font-size: 2.4rem;
+        color: #FFFFFF;
+        text-align: center;
+    }
+
+}
+
+/************************************/
+/* bellow 400px (for  phones)*/
+/************************************/
+
+@media(max-width:25em) {
+
+    /* section-1  -sec */
+    .head-path {
+        padding: 4rem 5rem;
+    }
+
+    .form-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .left-right {
+        padding: 0rem 1rem;
+    }
+
+    .left-img {
+        height: 40rem;
+        width: 38rem;
+    }
+
+    .rect {
+        height: 6rem;
+        width: 8rem;
+    }
+
+    .form-grid {
+        width: 122%;
+    }
+
+    /* feture timing*/
+    .feture-text {
+        font-size: 1.6rem;
+    }
+
+    /* option section */
+    .option {
+        padding: 0px 0rem;
+    }
+
+    .header-links {
+        font-size: 2.4rem;
+    }
+
+    .head-links {
+        display: none;
+    }
+
+    /*.product-des   section   */
+    .card {
+        width: 28rem;
+    }
+
+    .product-head {
+        font-size: 3rem;
+    }
+
+    .product-des {
+        margin: 0 2rem;
+    }
+
+    /*need c.. solution  */
+
+    .sol-head {
+        line-height: 1.5;
+        font-size: 2.8rem;
+    }
+
+    .sol-dis {
+        font-size: 2rem;
+
+    }
+}
+
+/************************************/
+/* bellow 320px (for  phones)*/
+/************************************/
+@media(max-width:20em) {
+    .second-heading {
+
+        padding: 0 1rem;
+    }
+
+    /*section-1   -sec  */
+    .head-path {
+        padding: 4rem 1rem;
+    }
+
+    .left-right {
+        padding: 0rem 1rem;
+    }
+
+    .head {
+        font-size: 2.2rem;
+    }
+
+    .form-head {
+        font-size: 1.6rem;
+    }
+
+    .rect {
+        height: 6rem;
+        width: 6rem;
+    }
+
+    .img-container {
+        gap: 2rem;
+    }
+
+    .left-img {
+        height: 28rem;
+        width: 30rem;
+    }
+
+    /* feture timing */
+    .feture-text {
+        font-size: 1.6rem;
+    }
+
+    /* option section */
+    .header-links {
+        font-size: 2rem;
+    }
+
+    .head-links {
+        display: none;
+    }
+
+    /*.product-des   section   */
+    .card {
+        width: 24rem;
+    }
+
+    .product-head {
+        padding-top: 3rem;
+        font-size: 2.4rem;
+    }
+
+    .product-line {
+        font-size: 1.4rem;
+    }
+
+    li {
+        font-size: 1.2rem;
+    }
+
+    .product-des {
+        padding: 0 2rem;
+        margin: 0 1rem;
+    }
+
+    /* nees c.. solution */
+
+    .solution {
+        gap: 2rem;
+        padding: 5rem 0rem;
+    }
+
+    .sol-dis {
+        font-size: 1.8rem;
+    }
+
+}

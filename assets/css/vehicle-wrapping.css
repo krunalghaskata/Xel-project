@@ -1,0 +1,544 @@
+/*
+        spasing system (px)
+        2/4/8/12/16/24/32/48/64/80/96/128
+        font-size system(px)
+        10/12/14/18/20/24/30/36/44/52/62/74/86/98 
+ */
+/* 
+        main color:#087f5b;
+        grey color:#343a40;
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    color: #444;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+
+
+/* 
+/////////////////
+hero section
+///////////////// */
+.hero {
+    background-image: linear-gradient(rgba(20, 19, 19, 0.718), rgba(20, 19, 19, 0.718)), url(../image/vehicle-img/a7b27f06d129c6c1637c4d543e8d0946.png);
+    opacity: 10;
+    background-size: cover;
+    height: 100%;
+    padding: 10rem 0;
+}
+
+
+.online-title {
+    color: #FFFFFF;
+    font-size: 6.4rem;
+    line-height: 1;
+    text-align: center;
+}
+
+.online-dis {
+    color: #FFFFFF;
+    font-size: 3.6rem;
+    text-align: center;
+
+}
+
+.btn-about {
+    padding: 0.8rem 6rem;
+    border: none;
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: #FFFFFF;
+    text-align: center;
+    display: block;
+    background-color: #F26924;
+}
+
+.btn-about-2 {
+    padding: 0.8rem 1.4rem;
+    border: none;
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: #FFFFFF;
+    text-align: center;
+    display: block;
+    background-color: #FAAC29;
+}
+
+.btn-about:hover,
+.btn-about-2:hover {
+    background-color: #f8f8f8;
+    color: #ef4023;
+
+}
+
+.btn-call {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 1.5rem;
+}
+
+
+/* *********************************************** */
+/* ******************* FETURE PART********************* */
+/* *********************************************** */
+.feture {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    padding: 2rem 10rem;
+    background-color: #f1f1f1;
+}
+
+.feture-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.feture-text {
+    font-size: 3rem;
+    color: #0F0F0F;
+    font-weight: 600;
+
+}
+
+/* /////////////////////
+ vehicle  section
+////////////////////// */
+
+.vehicle-part {
+    display: flex;
+
+    gap: 4rem;
+    padding: 8rem 10rem;
+
+
+}
+
+.about-img {
+    height: 100%;
+}
+
+.v-head {
+    color: #444;
+    text-align: start;
+    font-size: 3.8rem;
+    font-weight: 800;
+    padding: 4rem 0;
+}
+
+.v-dis {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #444;
+}
+
+/* ************************************* */
+/* ************button-icon**************** */
+/* *************************************** */
+
+
+.img-gallery {
+    position: relative;
+}
+
+.g-img {
+    height: 100%;
+    width: 100%;
+}
+
+/* btn */
+
+.display-container {
+    position: relative;
+}
+
+.display-left-btn {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    border: none;
+    font-size: 6rem;
+    background: inherit;
+    color: #FFFFFF;
+    transform: translate(0%, -50%);
+    -ms-transform: translate(-0%, -50%)
+}
+
+.display-right-btn {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    border: none;
+    font-size: 6rem;
+    background: inherit;
+    color: #FFFFFF;
+    transform: translate(0%, -50%);
+    -ms-transform: translate(0%, -50%)
+}
+
+.dis-bottom {
+    padding: 5rem 22rem 0 22rem;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #444;
+}
+
+
+/* /////////////////////
+ car service section
+///////////////////////// */
+.car-service {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding: 6rem 15rem;
+
+
+}
+
+.car-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+
+}
+
+.magnet-head {
+    font-size: 3rem;
+    color: #444;
+    padding: 3rem 0;
+
+}
+
+.car-service-dis {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #3B3B3B;
+}
+
+.car-service-img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.car-service-dis span {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #3B3B3B;
+}
+
+
+/* ///////////////////////
+need a customized solution
+///////////////////////////*/
+
+.solution {
+    background-image: url(../image/online-img/aebf0677c00fd4d24ab5c0fc12747d7e.png);
+    background-color: #ff6700;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30rem;
+    margin: 8rem 0;
+    padding: 8rem 0;
+}
+
+.solution-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+
+}
+
+.sol-head {
+    font-size: 5.4rem;
+    color: #FFFFFF;
+    font-weight: 800;
+    line-height: 1.5;
+}
+
+.sol-dis {
+    font-size: 2.4rem;
+    color: #FFFFFF;
+}
+
+.solution-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.sol-btn {
+    text-decoration: none;
+    padding: 0.8rem 5rem;
+    border: none;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: center;
+    display: block;
+    background-color: #FAAC29;
+}
+
+
+.color {
+    background-color: #414142;
+    padding: 0.8rem 2rem;
+}
+
+
+.sol-btn:hover,
+.color:hover {
+    background-color: #fff;
+    color: #ef4023;
+}
+
+
+/*////////////////////////
+    youtube 
+//////////////////////////*/
+.youtube {
+    height: 45rem;
+    width: 100%;
+    padding: 0 30rem;
+}
+
+/* ////////////////////////////
+srvice you can rely on
+///////////////////////////////*/
+.align {
+    text-align: center;
+    padding: 5rem 20rem;
+}
+
+.rely-head {
+    font-size: 3rem;
+    color: #444;
+    padding: 3rem 0;
+}
+
+.rely-dis {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #3B3B3B;
+}
+
+.rely-dis span {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #3B3B3B;
+}
+
+/* //////////////////////////
+  gallery section
+///////////////////////////*/
+.gallery-grid-vehicle {
+    height: 100%;
+    width: 100%;
+    padding: 5rem 15rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.vehicle-gallery {
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.vehicle-gallery::after,
+.vehicle-gallery:hover {
+
+    transform: translateY(-1.2rem);
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.295);
+    z-index: 1;
+}
+
+
+/* ///////////////////////////////////
+product option
+///////////////////////////////////// */
+
+h1 {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 4.4rem;
+    line-height: 1;
+
+}
+
+.grid-head {
+    color: #414142;
+    padding-bottom: 3rem;
+
+}
+
+.grid-3-cols {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    padding: 6rem 25rem;
+
+}
+
+.product-box {
+    background-color: #fffefe;
+    border-radius: 1rem;
+    position: relative;
+    padding-bottom: 2rem;
+
+}
+
+.product-box::after,
+.product-box:hover {
+
+    transform: translateY(-1.2rem);
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.295);
+    z-index: 1;
+}
+
+.product-img {
+    height: 100%;
+    width: 100%;
+
+}
+
+.category-name {
+    padding: 2rem 0 3rem 0;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+.btn-view {
+    padding: 1rem 2.4rem;
+    border: none;
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: #FFFFFF;
+    text-align: center;
+    display: block;
+    background-color: #F26924;
+    margin: 1px 3.5rem 0rem 13.5rem;
+}
+
+.btn-view:hover {
+    background-color: #975b3c;
+}
+
+.sticker {
+    display: inline-block;
+    background-color: #ef4023;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding: 0.6rem 1rem;
+    top: -1.4rem;
+    left: 1.4rem;
+    position: absolute;
+}
+
+.sticker-1 {
+    background-color: #FAAC29;
+
+}
+
+/* ////////////////////////////////////
+             FAQs section
+////////////////////////////////////////*/
+.faq-section {
+    background-color: #1A1919;
+    padding: 0 10rem 5rem 10rem;
+    margin: 5rem 0 0 0;
+}
+
+.faqs {
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
+    color: #F26924;
+    padding-bottom: 4rem;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    border-top: 2px solid #FFFFFF;
+
+}
+
+.text {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #fff;
+    text-align: start;
+    padding: 2rem;
+    width: 100%;
+
+}
+
+.text:hover {
+    background-color: #726b68;
+}
+
+.panel {
+    padding: 0 3rem;
+    display: none;
+    overflow: hidden;
+    color: #ffffff;
+    font-size: 1.5rem;
+    padding-bottom: 0.8rem;
+    line-height: 1.2;
+}
+
+.icon {
+    width: 2.4rem;
+    height: 2.4rem;
+    stroke: #F26924;
+    stroke-width: 4px;
+    margin-right: 1.4rem;
+}
+
+.item.active .icon {
+    transform: rotate(180deg);
+}

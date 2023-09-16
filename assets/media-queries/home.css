@@ -1,0 +1,914 @@
+/************************************/
+/* bellow 1344px (smaller desktop)*/
+/************************************/
+@media(max-width:84em) {
+
+    /* speedy section  */
+    .speedy {
+        font-size: 5rem;
+        margin-left: 5rem;
+        padding-top: 10rem;
+    }
+
+    .btn-1 {
+        font-size: 1.5rem;
+        width: 16rem;
+    }
+
+    /* feature section */
+
+    .feture-text {
+        font-size: 2.4rem;
+    }
+
+    .feture {
+        padding: 2rem 4rem;
+    }
+
+    /* popular product */
+    .sale-logo {
+        width: 19%;
+        font-size: 1.5rem;
+        font-weight: 400;
+        padding: 0.5rem;
+    }
+
+    .sale {
+        height: 38rem;
+    }
+
+    .sale:hover {
+        height: 38rem;
+        width: 29rem;
+    }
+
+    .v-btn {
+        margin-left: 7rem;
+    }
+
+    .selling-img {
+        width: 100%;
+        align-items: center;
+    }
+
+    .sales {
+        margin: 5rem;
+    }
+
+    /* blog section*/
+    .dis-text {
+        margin: 2rem;
+        font-size: 1.5rem;
+        margin-bottom: 3rem;
+        line-height: 1.5;
+    }
+
+    .vehicle {
+        padding: 0;
+    }
+
+    .design-b,
+    .shop-b {
+        font-size: 1.4rem;
+        padding: 1rem;
+    }
+
+    .bg-text {
+        width: 33rem;
+    }
+
+    /* about-xel */
+    .g-text {
+        font-size: 1.5rem;
+    }
+
+    .graph {
+        font-size: 1.5rem;
+    }
+
+    .main-text {
+        font-size: 4rem;
+        margin-bottom: 2rem;
+    }
+
+    .owned-dis {
+        font-size: 1.5rem;
+    }
+
+    /* product by industry */
+    .industry {
+        margin: 0 7rem;
+    }
+
+    .prod-title {
+        font-size: 5rem;
+    }
+
+    .prod-ind {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 3rem;
+    }
+
+    .prod-div {
+        height: 23rem;
+    }
+
+    .product-img {
+        height: 8rem;
+    }
+
+    .marketting {
+        font-size: 3rem;
+        padding-top: 4rem;
+    }
+}
+
+
+
+/************************************/
+/* bellow 1304px (for adjust ment)*/
+/************************************/
+@media(max-width:81.5em) {
+    .login {
+        padding: 1rem 1rem;
+    }
+
+    /*speedy section */
+
+    .speedy {
+        font-size: 5.4rem;
+    }
+
+    /* popular product */
+    .selling-name {
+
+        font-size: 3.2rem;
+
+    }
+}
+
+
+
+/************************************/
+/* bellow 1200px (for landscap tablets)*/
+/************************************/
+@media(max-width:75em) {
+
+    /*speedy section */
+    .speedy {
+        font-size: 4.8rem;
+    }
+
+    /*feture timing  */
+    .feture {
+        padding: 2rem 3rem;
+    }
+
+    .feture-text {
+        font-size: 2.2rem;
+    }
+
+    /* popular product */
+    .product {
+        grid-template-columns: repeat(3, 3fr);
+    }
+
+    .sale-logo {
+        width: 30%;
+    }
+
+    .selling-img {
+        width: 100%;
+    }
+
+    .sales {
+        margin: 5rem;
+    }
+
+    .v-btn {
+        margin-left: 9rem;
+    }
+
+    .sale:hover {
+        height: 42rem;
+        width: 34rem;
+    }
+
+    /* BLOG SECTION */
+    .bg-text {
+
+        width: 32rem;
+
+    }
+
+    /* about-xel */
+    .btn-about {
+        margin: 0 20rem;
+    }
+
+    .about-des {
+        font-size: 1.6rem;
+        padding: 5rem 5rem;
+    }
+
+    /*owned */
+    .owned-dis {
+        font-size: 1.6rem;
+    }
+
+    .owned {
+        gap: 8rem;
+        line-height: 2rem;
+    }
+
+    .owned-self {
+        gap: 1rem;
+    }
+
+    .owned-logo {
+        height: 50%;
+    }
+
+    /* product by industry */
+    .prod-title {
+        font-size: 5rem;
+        padding-top: 10rem;
+    }
+
+    .prod-ind {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5rem;
+    }
+
+    .prod-div {
+        height: 35rem;
+        width: 95%;
+    }
+
+    .product-img {
+        height: 8rem;
+    }
+
+    .marketting {
+        font-size: 3rem;
+
+    }
+}
+
+/************************************/
+/* bellow 944px (for  tablets)*/
+/************************************/
+@media(max-width:59em) {
+
+    /*speedy section */
+    .speedy {
+        font-size: 4.2rem;
+        margin: 0 3rem;
+        padding-top: 8rem;
+    }
+
+    .btn-1 {
+        padding: 1rem 1rem;
+        font-size: 1.4rem;
+    }
+
+    .btn-bb {
+        padding: 5rem 5rem;
+    }
+
+
+    /* feture timing */
+    .feture-text {
+        font-size: 1.6rem;
+    }
+
+
+    /* popular product */
+    .product {
+        grid-template-columns: repeat(3, 3fr);
+    }
+
+    .sale-logo {
+        font-size: 1.6rem;
+        width: 30%;
+        padding: 1.6rem 1.6rem;
+    }
+
+    .selling-img {
+        width: 100%;
+    }
+
+    .sales {
+        margin: 4rem;
+    }
+
+    .heading-primary {
+        font-size: 5rem;
+    }
+
+    .v-btn {
+        margin-left: 6rem;
+    }
+
+    .sale:hover {
+        height: 39rem;
+        width: 27rem;
+    }
+
+    /* nav-head */
+
+    .title-name {
+        font-size: 2.6rem;
+    }
+
+    /* blog section*/
+
+    .blog {
+        padding: 0px 1rem;
+    }
+
+    .blog-1 {
+
+        height: 50rem;
+    }
+
+    .blog-2 {
+        width: 100%;
+        height: 50rem
+    }
+
+    .bg-text {
+        width: 35rem;
+        height: 35rem;
+    }
+
+    .vehicle {
+        font-size: 2.6rem;
+    }
+
+    .dis-text {
+        font-size: 2rem;
+    }
+
+    .shop-b {
+        font-size: 1.5rem;
+        padding: 1.2rem;
+    }
+
+    .design-b {
+        font-size: 1.5rem;
+        padding: 1.2rem;
+
+    }
+
+    /* about-xel */
+    .g-text {
+        font-size: 1.6rem;
+        line-height: 1.4;
+        text-align: center;
+    }
+
+    .main-text {
+        font-size: 3rem;
+    }
+
+    .graph {
+        font-size: 1.4rem;
+    }
+
+    /* owned */
+
+
+    .owned {
+        padding: 2.4rem 0;
+        gap: 2rem;
+    }
+
+    .owned-self {
+        gap: 1rem;
+    }
+
+    .owned-logo {
+        height: 30%;
+    }
+
+    .owned-dis {
+        font-size: 1.4rem;
+    }
+
+    /* product by industry */
+    .prod-title {
+        padding-top: 6rem;
+        font-size: 4rem;
+    }
+
+    .prod-ind {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 4rem;
+    }
+
+    .prod-div {
+        height: 25rem;
+        width: 100%;
+    }
+
+    .product-img {
+        height: 6rem;
+    }
+
+    .marketting {
+        font-size: 2.2rem;
+    }
+}
+
+/************************************/
+/* bellow 704px (for  samaller tablets)*/
+/************************************/
+@media(max-width:44em) {
+
+    /* speedy section */
+    .speedy {
+        font-size: 3rem;
+        margin: 0 3rem;
+        padding-top: 6rem;
+    }
+
+    .btn-1 {
+        padding: 1rem 1rem;
+        font-size: 1.4rem;
+    }
+
+    .btn-bb {
+        padding: 5rem 3rem;
+    }
+
+    /* feture timing */
+    .feture-text {
+        font-size: 1.3rem;
+
+    }
+
+    .feture {
+        padding: 2rem 0.2rem;
+    }
+
+
+    /* product section */
+
+    .heading-primary {
+        font-size: 4rem;
+    }
+
+    .product {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* part 05 */
+    .title-name {
+        font-size: 2rem;
+    }
+
+    /* blog section */
+    .our-blog {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .bg-text {
+
+        height: 35rem;
+    }
+
+    /* about-xel */
+    .bg-about {
+        height: 20rem;
+    }
+
+    .about-xel-h {
+        font-size: 2.8rem;
+    }
+
+    .btn-about {
+        margin: 0 10rem;
+    }
+
+    .about-des {
+        padding: 2rem 0rem;
+        font-size: 1rem;
+        margin-left: -3rem;
+    }
+
+    .about-flex {
+        margin-top: 2rem;
+    }
+
+    /* owned */
+    .owned-dis {
+        font-size: 1.4rem;
+    }
+
+    .owned {
+        gap: 2rem;
+        line-height: 1.5rem;
+    }
+
+    .owned-self {
+        gap: 1rem;
+    }
+
+    .owned-logo {
+        height: 20%;
+    }
+
+    /* product industry */
+
+    .industry {
+        padding: 0 2rem;
+        padding-bottom: 6rem;
+    }
+
+    .prod-ind {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 4rem;
+    }
+
+    .prod-div {
+        height: 20rem;
+        width: 100%;
+    }
+
+    .marketting {
+        padding-top: 5rem;
+    }
+}
+
+/************************************/
+/* bellow 544px (for  phones)*/
+/************************************/
+@media(max-width:34em) {
+
+    /*speedy section*/
+    .hero {
+        grid-template-columns: 2fr;
+    }
+
+    .speedy {
+        font-size: 4rem;
+    }
+
+    .btn-bb {
+        padding: 4rem;
+    }
+
+    .btn-1 {
+        padding: 1rem 1rem;
+        font-size: 1.4rem;
+    }
+
+    /* feture timing */
+    .feture-text {
+        font-size: 2rem;
+    }
+
+    .feture {
+        row-gap: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        padding: 2rem 2rem;
+    }
+
+    .feture-flex {
+        gap: 2rem;
+
+    }
+
+    /* popular product*/
+    .sale {
+        height: 30rem;
+    }
+
+    .sale:hover {
+        height: 30rem;
+        width: 22rem;
+    }
+
+    .v-btn {
+        font-size: 1rem;
+        padding: 0.8rem;
+        margin-left: 6rem;
+    }
+
+    .selling-name {
+        padding-bottom: 2rem;
+    }
+
+
+    /* nav-head */
+
+    .title-name {
+        font-size: 3rem;
+        padding: 1rem 0;
+
+    }
+
+    .title-hide {
+        display: none;
+    }
+
+    .header-nav {
+        padding: 0 3rem;
+        font-size: 2.8rem;
+        height: 5rem;
+    }
+
+    /* blog */
+    .blog {
+        padding: 0 0rem;
+    }
+
+    /* about xel */
+    .graphic-text {
+        color: #FFFFFF;
+        padding: 2rem;
+        display: flex;
+        align-content: center;
+        flex-direction: column;
+    }
+
+    .graph {
+        padding: 0.8rem;
+    }
+
+    .main-text {
+        margin-bottom: 1rem;
+    }
+
+    .g-head-g {
+        padding: 3rem 0rem;
+    }
+
+    /* owned */
+    .owned {
+        padding: 2rem 0;
+        margin: 2rem;
+        flex-direction: column;
+    }
+
+    .owned-dis {
+        font-size: 1.8rem;
+        line-height: 1.5;
+    }
+
+    /*product indestry  */
+    .industry {
+        margin: 0 0;
+    }
+
+}
+
+/************************************/
+/* bellow 400px (for  phones)*/
+/************************************/
+
+@media(max-width:25em) {
+
+    /*  */
+    .btn-1 {
+        padding: 1rem 1rem;
+    }
+
+    .btn-bb {
+        padding: 3rem;
+    }
+
+    /* feture timing*/
+    .feture-text {
+        font-size: 1.6rem;
+    }
+
+    /* popular product */
+    .heading-primary {
+        font-size: 2.2rem;
+    }
+
+    .sale {
+        height: 21rem;
+    }
+
+    .sales {
+        margin: 1rem;
+    }
+
+    .v-btn {
+        font-size: 1rem;
+        padding: 0.8rem;
+        margin-left: 2.3rem;
+    }
+
+    .sale:hover {
+        height: 21rem;
+        width: 14rem;
+    }
+
+    .selling-name {
+        color: black;
+        font-size: 2rem;
+        text-align: center;
+        padding-bottom: 1.4rem;
+    }
+
+    .sale-logo {
+        font-size: 1.2rem;
+        width: 28%;
+        padding: 0.6rem;
+    }
+
+    /*  nav-head*/
+    .header-nav {
+        padding: 0 0rem;
+        font-size: 2rem;
+        height: 4rem;
+    }
+
+    .title-name {
+        font-size: 2.6rem;
+        padding: 1rem 0;
+
+    }
+
+    /*  blog*/
+    .blog {
+        padding: 0 0rem;
+    }
+
+    .bg-text {
+        width: 30rem;
+        height: 32rem;
+    }
+
+    .vehicle {
+        font-size: 2.2rem;
+    }
+
+    .dis-text {
+        font-size: 1.8rem;
+    }
+
+    .shop-b {
+        font-size: 1.2rem;
+        padding: 1rem;
+    }
+
+    .design-b {
+        font-size: 1.2rem;
+        padding: 1rem;
+
+    }
+
+    /*about xel  */
+    .about-des {
+        padding: 0 3rem;
+        font-size: 1.4rem;
+        margin-left: -2rem;
+
+    }
+
+    .btn-about {
+        margin: 0 11rem;
+    }
+
+
+    /* product industry */
+    .prod-ind {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+
+    .prod-div {
+        height: 15rem;
+        width: 100%;
+    }
+
+    .marketting {
+        padding-top: 2rem;
+    }
+}
+
+/************************************/
+/* bellow 320px (for  phones)*/
+/************************************/
+@media(max-width:20em) {
+
+    /* speedy section */
+    .btn-bb {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+
+    .speedy {
+        font-size: 3rem;
+    }
+
+
+    /* feture timing */
+    .feture-text {
+        font-size: 1.6rem;
+    }
+
+
+    /*  popular product*/
+
+    .sales {
+        margin: 4rem 1rem;
+    }
+
+    .heading-primary {
+        font-size: 2.6rem;
+
+        line-height: 1;
+    }
+
+    .sale-logo {
+        font-size: 1rem;
+        width: 24%;
+    }
+
+    .selling-name {
+        font-size: 1.4rem;
+    }
+
+    /*nav-head  */
+    .title-name {
+        font-size: 2.2rem;
+        padding: 1rem 0;
+
+    }
+
+    /* owned */
+    .owned {
+        padding: 2rem 0;
+        margin: 29px 1rem;
+        flex-direction: column;
+    }
+
+    .owned-dis {
+        line-height: 1.5;
+        font-size: 1.6rem;
+    }
+
+    /* blog */
+
+    .bg-text {
+        padding: 2rem 0;
+        margin: 4rem 4rem;
+        width: 27rem;
+        height: 25rem;
+    }
+
+    .vehicle {
+        font-size: 2rem;
+    }
+
+    .dis-text {
+        font-size: 1.4rem;
+        line-height: 1.5;
+    }
+
+    .shop-b {
+        font-size: 1.4rem;
+        padding: 0.4rem;
+    }
+
+    .design-b {
+        font-size: 1.4rem;
+        padding: 0.4rem;
+        margin-left: 1rem;
+    }
+
+    .blog-2 img {
+        height: 80%;
+    }
+
+    .blog-1 {
+        height: 42rem;
+    }
+
+    /*  about xel*/
+    .btn-about {
+        margin: 0 7rem;
+    }
+
+    .about-des {
+        padding: 15px 2rem;
+        font-size: 1.2rem;
+        margin-left: 1rem;
+    }
+
+    /*  */
+    .marketting {
+        font-size: 1.6rem;
+    }
+
+
+}

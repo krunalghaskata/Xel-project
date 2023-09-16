@@ -1,0 +1,508 @@
+/************************************/
+/* bellow 1344px (smaller desktop)*/
+/************************************/
+@media(max-width:84em) {
+
+    /* feature section */
+
+    .feture-text {
+        font-size: 2.4rem;
+    }
+
+    .feture {
+        padding: 2rem 4rem;
+    }
+
+    /* vehicle wrapping section */
+    .v-head {
+        font-size: 3.6rem;
+    }
+
+    .prod-btn {
+        margin: 0 5rem 1rem 5rem;
+        font-size: 1.4rem;
+    }
+
+    .v-dis {
+        font-size: 1.6rem;
+    }
+
+    /* need a solution sec tion */
+
+    .solution {
+        gap: 22rem;
+    }
+
+    .sol-head {
+        font-size: 4rem;
+    }
+
+    .sol-btn {
+        font-size: 1.6rem;
+    }
+}
+
+/************************************/
+/* bellow 1304px (for adjust ment)*/
+/************************************/
+@media(max-width:81.5em) {
+    .products {
+
+        padding: 6rem 18rem;
+    }
+
+    /* need a solution */
+    .solution {
+        gap: 16rem;
+    }
+}
+
+/************************************/
+/* bellow 1200px (for landscap tablets)*/
+/************************************/
+@media(max-width:75em) {
+
+
+
+    /*feture timing  */
+    .feture {
+        padding: 2rem 3rem;
+    }
+
+    .feture-text {
+        font-size: 2.2rem;
+    }
+
+
+    /* vehicle wrapping */
+    .v-head {
+
+        padding: 1rem 0
+    }
+
+    .v-dis {
+        font-size: 1.4rem;
+    }
+
+    /* scroll car section */
+    .dis-bottom {
+        padding: 5rem 18rem 0 18rem;
+        font-size: 1.6rem;
+    }
+
+    /* need c.. solution */
+    .sol-head {
+        font-size: 3.6rem;
+    }
+
+    .sol-btn {
+        font-size: 1.4rem;
+    }
+
+    .solution {
+        gap: 13rem;
+    }
+
+    /* product option*/
+    .products {
+        gap: 7rem;
+        padding: 6rem 14rem;
+    }
+
+}
+
+/************************************/
+/* bellow 944px (for  tablets)*/
+/************************************/
+@media(max-width:59em) {
+
+    /* feture timing */
+    .feture-text {
+        font-size: 1.6rem;
+    }
+
+    /* vehicle wrapping section */
+    .v-head {
+        padding: 2rem 0;
+        font-size: 3rem;
+    }
+
+    .v-dis {
+        font-size: 1.2rem;
+    }
+
+    .vehicle-part {
+        padding: 8rem 7rem;
+    }
+
+    /* scroll car section */
+    .dis-bottom {
+        font-size: 1.4rem;
+    }
+
+    .dis-bottom {
+        padding: 4rem 9rem 0 11rem;
+    }
+
+
+    /* car service section */
+    .magnet-head {
+        font-size: 2.8rem;
+    }
+
+    .car-service-dis {
+        font-size: 1.3rem;
+    }
+
+    .car-service {
+
+        gap: 3rem;
+        padding: 4rem 5rem;
+    }
+
+    /* need c..  solution */
+
+    .solution {
+        flex-direction: column;
+    }
+
+    .sol-head {
+        font-size: 5.4rem;
+    }
+
+    .solution {
+        gap: 8rem;
+    }
+
+    /* product section */
+
+    .products {
+        gap: 5rem;
+        padding: 6rem 6rem;
+    }
+
+    .prod-btn {
+        font-size: 1.2rem;
+    }
+
+    /*faq section  */
+    .faqs {
+
+        padding-top: 4rem;
+    }
+}
+
+/************************************/
+/* bellow 704px (for  samaller tablets)*/
+/************************************/
+@media(max-width:44em) {
+
+    /* feture timing */
+    .feture-text {
+        font-size: 1.3rem;
+
+    }
+
+    .feture {
+        padding: 2rem 0.2rem;
+    }
+
+    /* vehicle service */
+    .vehicle-part {
+        padding: 8rem 10rem;
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .v-dis {
+        font-size: 1.6rem;
+    }
+
+
+    /* scroll car section */
+    .dis-bottom {
+        padding: 4rem 4rem 0 6rem;
+    }
+
+    /* need c.. solution*/
+    .sol-head {
+        font-size: 4rem;
+    }
+
+    .solution {
+        gap: 5rem;
+        padding: 8rem 3.4rem;
+    }
+
+    .sol-dis {
+        text-align: center;
+
+    }
+
+    /*product section  */
+    .prod-btn {
+        padding: 1rem 1.4rem;
+
+        margin: 0 3rem 1rem 3rem;
+    }
+
+    .products {
+        gap: 2rem;
+
+    }
+}
+
+/************************************/
+/* bellow 544px (for  phones)*/
+/************************************/
+@media(max-width:34em) {
+
+
+    /* hero section */
+    .online-title {
+        padding-bottom: 1rem;
+        font-size: 5.4rem;
+    }
+
+    .online-dis {
+        font-size: 2.6rem;
+    }
+
+    .btn-about {
+        font-size: 1.4rem;
+    }
+
+    .btn-about-2 {
+        font-size: 1.4rem;
+    }
+
+    /* feture timing */
+    .feture-text {
+        font-size: 2rem;
+    }
+
+    .feture {
+        row-gap: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        padding: 2rem 2rem;
+    }
+
+    .feture-flex {
+        gap: 2rem;
+
+    }
+
+    /* vehicle service */
+    .vehicle-part {
+        padding: 8rem 5rem;
+        flex-direction: column;
+    }
+
+    .v-dis {
+        font-size: 1.6rem;
+    }
+
+    /* scroll car section */
+    .dis-bottom {
+        font-size: 1.2rem;
+        padding: 4rem 6rem 0 6rem;
+    }
+
+    .display-left-btn,
+    .display-right-btn {
+        font-size: 4rem;
+
+    }
+
+    /* need c.. solution */
+
+    .sol-head {
+        font-size: 4rem;
+        line-height: 1;
+        padding-bottom: 3rem;
+        text-align: center;
+    }
+
+    .sol-dis {
+        font-size: 2.4rem;
+        color: #FFFFFF;
+        text-align: center;
+    }
+
+    /* product option section */
+    .heading-primary {
+
+        font-size: 3.4rem;
+
+    }
+
+    .products {
+
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /*faq section  */
+    .faq-section {
+
+        padding: 0px 8rem 5rem 8rem;
+
+    }
+}
+
+/************************************/
+/* bellow 400px (for  phones)*/
+/************************************/
+
+@media(max-width:25em) {
+
+    /* hero section */
+    .online-title {
+        padding-bottom: 1rem;
+        font-size: 4.2rem;
+    }
+
+    .online-dis {
+        font-size: 2.2rem;
+    }
+
+    /* feture timing*/
+    .feture-text {
+        font-size: 1.6rem;
+    }
+
+    /* vehicle part section */
+    .vehicle-part {
+        padding: 8rem 4rem;
+    }
+
+    /* scroll car section */
+    .dis-bottom {
+        padding: 2rem 3rem 0 3rem;
+    }
+
+    /*need c.. solution  */
+
+    .sol-head {
+        line-height: 1.5;
+        font-size: 2.8rem;
+    }
+
+    .sol-dis {
+        font-size: 2rem;
+
+    }
+
+    /* product option */
+    .heading-primary {
+        font-size: 3rem;
+    }
+
+    .selling-name {
+
+        font-size: 1.6rem;
+    }
+
+    .products {
+
+        padding: 3rem 3rem;
+    }
+
+    .prod-btn {
+        font-size: 0.9rem;
+    }
+
+    .prod-btn {
+        font-size: 1.2rem;
+        padding: 1rem 1.4rem;
+        margin: 0 2rem 1rem 1rem;
+    }
+
+    /* faq section */
+    .faq-section {
+
+        padding: 0px 3rem 5rem 3rem;
+    }
+
+    .text {
+        font-size: 1.4rem;
+    }
+
+}
+
+/************************************/
+/* bellow 320px (for  phones)*/
+/************************************/
+@media(max-width:20em) {
+
+    /* hero section */
+    .hero {
+        padding: 7rem 0;
+    }
+
+    .online-title {
+        font-size: 3.4rem;
+        font-weight: 600;
+        padding-bottom: 2rem;
+    }
+
+    .online-dis {
+        font-weight: 400;
+        font-size: 2rem;
+    }
+
+    .btn-about {
+        font-size: 1.4rem;
+        padding: 0.8rem 4rem;
+
+    }
+
+
+    /* feture timing */
+    .feture-text {
+        font-size: 1.6rem;
+    }
+
+
+
+    /*  vehicle  section */
+    .v-dis {
+        font-size: 1.2rem;
+    }
+
+    .vehicle-part {
+        padding: 8rem 2rem;
+    }
+
+    /* scroll car section */
+    .display-left-btn,
+    .display-right-btn {
+        font-size: 2rem;
+
+    }
+
+    /* nees c.. solution */
+
+    .solution {
+        gap: 2rem;
+        padding: 5rem 0rem;
+    }
+
+    .sol-dis {
+        font-size: 1.8rem;
+    }
+
+    /* product option */
+    .products {
+        gap: 1rem;
+        padding: 3rem 1rem;
+    }
+
+    .prod-btn {
+        font-size: 1.2rem;
+        margin: 0 1rem 1rem 1rem;
+    }
+
+
+}

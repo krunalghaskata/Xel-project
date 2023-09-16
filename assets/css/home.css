@@ -1,0 +1,450 @@
+/* part 02 */
+
+
+/* 
+///////////////////////
+speedy production
+/////////////////////
+*/
+.hero {
+    height: 100%;
+    width: 100%;
+}
+
+.grid--2-cols {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.hero-1 {
+    background-color: #403F3F;
+}
+
+.hero-2 {
+    background-image: url(../image/home/);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.hero-b-img {
+    width: 100%;
+    height: 100%;
+}
+
+.btn-bb {
+    padding: 5rem 8rem;
+    display: flex;
+}
+
+.btn-1 {
+    text-decoration: none;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: rgb(255, 98, 0);
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding: 1rem;
+    width: 22rem;
+    margin-right: 1.5rem;
+    line-height: 1.5;
+}
+
+.btn-1-1 {
+    background-color: #FAAC29;
+}
+
+.btn-1:hover {
+    color: red;
+    background-color: #f8f8f8;
+}
+
+.speedy {
+
+    font-size: 7rem;
+    color: #FFFFFF;
+    font-weight: 700;
+    margin: 0 8rem;
+    padding-top: 20rem;
+}
+
+/* *********************************************** */
+/* ******************* FETURE PART********************* */
+/* *********************************************** */
+.feture {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    padding: 2rem 10rem;
+    background-color: #f1f1f1;
+}
+
+.feture-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.feture-text {
+    font-size: 3rem;
+    color: #0F0F0F;
+    font-weight: 600;
+
+}
+
+
+
+
+
+
+
+/* ********************************* */
+/* product section */
+/* ********************************* */
+.sale-heading {
+    margin: 4.8rem;
+    text-align: center;
+}
+
+.sales {
+    margin: 14rem;
+}
+
+.sale {
+    background-color: #f8f8f8;
+    width: 100%;
+    height: 45rem;
+    border-radius: 2%;
+}
+
+.products {
+    width: 100%;
+}
+
+.sale-logo {
+
+    margin-left: 2.2rem;
+    text-decoration: none;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #EF4023;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 1rem 2rem;
+
+}
+
+.selling-img {
+    width: 100%;
+    align-items: center;
+    padding-top: 0.5rem;
+}
+
+.selling-name {
+    color: black;
+    font-size: 2.2rem;
+    text-align: center;
+    padding-bottom: 4rem;
+}
+
+.v-btn {
+    text-decoration: none;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #f26924;
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding: 1rem 2rem;
+    margin-left: 9rem;
+
+}
+
+.v-btn:hover {
+    color: #ef4023;
+    background-color: #ffd7d7;
+}
+
+.hidden {
+    display: none;
+}
+
+.sale:hover .hidden {
+    display: block;
+
+}
+
+.new {
+    background-color: #faac29;
+}
+
+.sale:hover {
+    height: 45rem;
+    width: 35rem;
+    /* transform: translate(0, 8rem); */
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.295);
+    z-index: 1;
+}
+
+
+/* part 05 */
+.header-nav {
+    background-color: rgb(255, 98, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10rem;
+    text-align: center;
+    font-size: 2.8rem;
+    color: #FFFFFF;
+    height: 5rem;
+    width: 100%;
+}
+
+.title-name {
+    color: #FFFFFF;
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    font-weight: 500;
+    font-size: 2.8rem;
+    display: block;
+    padding: 1rem 0;
+    text-align: center
+}
+
+.title-name:hover {
+    background-color: #444;
+    height: 100%;
+    width: 100%;
+}
+
+.nav-head {
+    padding: 0rem 0;
+}
+
+/*
+////////////////////////
+blog
+//////////////////// */
+.blog {
+    width: 100%;
+    padding: 0 10rem;
+}
+
+.our-blog {
+    height: 100%;
+}
+
+.blog-1 {
+    background-image: url(../image/home//Screen\ Shot\ 2022-12-20\ at\ 1.12.21\ PM-1.png );
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.blog-2 img {
+    height: 100%;
+    width: 100%;
+}
+
+.bg-about {
+    display: flex;
+}
+
+.bg-text {
+    background-color: rgba(15, 15, 15, 0.661);
+    border-radius: 2rem;
+    width: 40rem;
+    /* height: 45rem; */
+    line-height: 3rem;
+    padding: 2rem 0;
+    margin: 4rem 8rem;
+}
+
+.vehicle {
+    color: #FFF;
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-left: 2rem;
+    padding: 1.8rem;
+    line-height: 2rem;
+}
+
+.dis-text {
+    margin: 2rem;
+    font-size: 2.2rem;
+    color: #FFFFFF;
+    margin-left: 4.2rem;
+}
+
+.shop-b {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #FFF;
+    margin-left: 3rem;
+    padding: 1.5rem;
+    background-color: #f26924;
+}
+
+.design-b {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #FFF;
+    margin-left: 3rem;
+    padding: 1.5rem;
+    background-color: #ef4023;
+}
+
+.shop-b:hover,
+.design-b:hover {
+    background-color: #FFF;
+    color: red;
+}
+
+.bg-color {
+    background-color: gray;
+}
+
+/*///////////////////////
+      about xel part
+////////////////////////*/
+.about-xel {
+    margin-top: 5rem;
+    background-image: url(../image/home//aebf0677c00fd4d24ab5c0fc12747d7e.png);
+    background-color: #ff6700;
+    background-size: cover;
+}
+
+
+.graph {
+    font-size: 2rem;
+    text-decoration: none;
+    color: #fff;
+    background-color: #faac29;
+    padding: 1rem;
+}
+
+.graphic-text {
+    color: #FFFFFF;
+    padding: 2rem;
+    display: flex;
+}
+
+.main-text {
+    font-size: 5rem;
+    font-weight: 500rem;
+    padding: 1.5rem 0;
+    margin-bottom: 3rem;
+}
+
+.g-head-g {
+    width: 100%;
+    text-align: center;
+    padding: 5rem 0rem;
+}
+
+.g-text {
+    font-size: 2rem;
+    line-height: 1.5;
+    padding-bottom: 2rem;
+}
+
+.g-text-des {
+    padding: 2.8rem 1rem;
+}
+
+/*//////////////////////
+          owned 
+////////////////////////*/
+.owned-dis {
+    font-size: 1.8rem;
+    color: black;
+    padding: 0.8rem 0;
+}
+
+.owned {
+    display: flex;
+    /* flex-direction: row; */
+    gap: 6rem;
+    width: 91%;
+    margin-left: 5%;
+    padding: 5.4rem 0;
+    line-height: 2.2rem;
+
+
+}
+
+.owned-self {
+    display: flex;
+    gap: 1.4rem;
+}
+
+.owned-logo {
+    height: 50%;
+}
+
+.owneds {
+    color: #ef4023;
+}
+
+.owneds:hover {
+    text-decoration: underline;
+}
+
+/* product by industry */
+.industry {
+    /* width: 150rem; */
+    padding: 0 10rem;
+    padding-bottom: 10rem;
+
+}
+
+.prod-title {
+    color: rgb(40, 40, 40);
+    text-align: center;
+    font-size: 6rem;
+    font-weight: 700;
+    padding-top: 8rem;
+}
+
+.prod-ind {
+    grid-template-columns: repeat(4, 3fr);
+    gap: 6rem;
+    padding-top: 10rem;
+}
+
+.prod-div {
+    background-color: rgb(246, 246, 246);
+    border-radius: 1rem;
+    height: 35rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.product-img {
+    height: 10rem;
+}
+
+.marketting {
+    color: rgb(220, 107, 27);
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 7rem;
+}
+
+.marketting:hover {
+    text-decoration: underline;
+    color: #86370f;
+}

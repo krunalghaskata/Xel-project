@@ -1,0 +1,1337 @@
+/* ////////////////////////////////////////////////
+            header css-query
+///////////////////////////////////////////////// */
+
+/* //////////////////////////
+       header part
+////////////////////////// */
+
+/* .width-all-div {
+    max-width: 200rem;
+} */
+
+/* black icon   */
+.account {
+    display: none;
+}
+
+.first-heading {
+    background-color: #ef4023;
+    height: 10rem;
+}
+
+.first-p {
+    height: 2.9rem;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 2.4rem;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 1.5rem;
+}
+
+.second-heading {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    padding: 0 12rem;
+}
+
+
+.logo {
+    height: 100%;
+}
+
+.list-info {
+    gap: 1rem;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    margin-right: 3rem;
+    gap: 5.6rem;
+    list-style: none;
+}
+
+.menus {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #444;
+    text-decoration: none;
+}
+
+.menus:hover {
+    color: #ef4023;
+}
+
+
+/* part 02 */
+
+.navigation {
+    background-color: rgb(255, 98, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0 8rem;
+    text-align: center;
+    font-size: 2.8rem;
+    color: #FFFFFF;
+    /* height: 5rem; */
+    width: 100%;
+}
+
+.title {
+    color: #FFFFFF;
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    font-weight: 500;
+    display: block;
+    font-size: 2.8rem;
+    padding: 1rem 0;
+}
+
+.title:hover {
+    background-color: #444;
+    height: 100%;
+    width: 100%;
+}
+
+.num-flex {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.num {
+    text-decoration: none;
+    font-size: 3rem;
+    font-weight: 600;
+    color: #ff6700;
+}
+
+.login {
+    text-decoration: none;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: rgb(255, 98, 0);
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 2rem 2rem;
+
+}
+
+.login:hover {
+    background-color: #b5b5b5;
+    color: #ef4023;
+}
+
+/*mobile*/
+.btn-mobile-nav {
+    border: none;
+    background: none;
+    cursor: pointer;
+    display: none;
+}
+
+.icon-mobile-nav,
+.btn-mobile-nav {
+    height: 4.8rem;
+    width: 4.8rem;
+    color: #333;
+    margin-left: -1rem;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+    display: none;
+
+}
+
+/************************************/
+/* bellow 1344px (smaller desktop)*/
+/************************************/
+@media(max-width:84em) {
+
+    /*  */
+    .first-p {
+        font-size: 2.2rem;
+    }
+
+    /* header */
+    .second-heading {
+        gap: 2rem;
+        padding: 0px 3rem;
+
+    }
+
+    .menus {
+        font-size: 1.4rem;
+    }
+
+    .num {
+        font-size: 2.6rem;
+    }
+
+    .nav-img {
+        height: 3.4rem;
+    }
+
+    .calling {
+        height: 2.6rem;
+    }
+
+    .list-info {
+        gap: 4rem;
+    }
+
+    .navigation {
+        padding: 0px 1rem;
+    }
+
+    .account {
+        display: none;
+    }
+}
+
+/************************************/
+/* bellow 1304px (for adjust ment)*/
+/************************************/
+@media(max-width:81.5em) {
+    .login {
+        padding: 1rem 1rem;
+    }
+
+    .account {
+        display: none;
+    }
+
+    .second-heading {
+        gap: 2rem;
+        padding: 0px 2rem;
+    }
+
+}
+
+/************************************/
+/* bellow 1200px (for landscap tablets)*/
+/************************************/
+@media(max-width:75em) {
+
+    /*  */
+    .first-p {
+        font-size: 2rem;
+    }
+
+    .num {
+        font-size: 2rem;
+    }
+
+    .nav-img {
+        height: 3.6rem;
+    }
+
+    .calling {
+        height: 3rem;
+    }
+
+    /* header */
+    .menus {
+        font-size: 1.4rem;
+    }
+
+    .list-info {
+        gap: 4rem;
+    }
+
+    .account {
+        display: none;
+    }
+
+    .second-heading {
+        gap: 1rem;
+        padding: 0 1rem;
+
+    }
+}
+
+/************************************/
+/* bellow 944px (for  tablets)*/
+/************************************/
+@media(max-width:59em) {
+
+    /*head  */
+    .first-p {
+        font-size: 1.7rem;
+        height: 7rem;
+    }
+
+    .first-heading {
+        height: 8rem;
+    }
+
+    .logo {
+        height: 10rem;
+    }
+
+    .num {
+        font-size: 1.6rem;
+    }
+
+    .nav-img {
+        height: 3rem;
+    }
+
+    .calling {
+        height: 2.2rem;
+    }
+
+    /* header */
+    .second-heading {
+        gap: 1rem;
+        padding: 0 0rem;
+
+    }
+
+    .menus {
+        font-size: 1.2rem;
+    }
+
+    .list-info {
+        gap: 3.2rem;
+    }
+
+    .title {
+        font-size: 2.4rem;
+    }
+
+    .login {
+        padding: 0.8rem 0.8rem;
+    }
+
+    .account {
+        display: none;
+    }
+}
+
+/************************************/
+/* bellow 704px (for  samaller tablets)*/
+/************************************/
+@media(max-width:44em) {
+
+    /*head  */
+    .first-p {
+        font-size: 1.2rem;
+    }
+
+    .first-heading {
+        height: 6rem;
+    }
+
+    .logo {
+        height: 8rem;
+    }
+
+    .nav-img {
+        height: 2.4rem;
+    }
+
+    .calling {
+        height: 1.8rem;
+    }
+
+    /* header */
+    .second-heading {
+        gap: 2rem;
+        padding: 0px 0rem;
+
+    }
+
+    .num {
+        display: none;
+    }
+
+    .menus {
+        font-size: 1rem;
+    }
+
+    .list-info {
+        gap: 1.2rem;
+    }
+
+    .login {
+        padding: 0.8rem 0.8rem;
+        font-size: 1.6rem;
+    }
+
+    .account {
+        display: none;
+    }
+
+    /* navigation */
+    .title {
+        font-size: 1.8rem;
+    }
+}
+
+/************************************/
+/* bellow 544px (for  phones)*/
+/************************************/
+@media(max-width:34em) {
+    .first-heading {
+        height: 10rem;
+    }
+
+    /*head  */
+    .first-p {
+        font-size: 1.4rem;
+    }
+
+    .second-heading {
+        gap: 3rem;
+        padding: 0 2rem;
+    }
+
+    .menus {
+        font-size: 1.8rem;
+    }
+
+    .t-nav {
+        display: none;
+    }
+
+    /* navigation */
+    .title {
+        font-size: 3rem;
+
+    }
+
+    .navigation {
+        padding: 0 4rem;
+        font-size: 2.8rem;
+
+    }
+
+    .num {
+        display: none;
+        fill: #444;
+    }
+
+    .num-flex,
+    .nav-img {
+        display: none;
+    }
+
+    .account {
+        display: flex;
+        gap: 1.5rem;
+        margin-left: 16rem;
+    }
+
+    .account-fill {
+        display: block;
+    }
+
+    .login {
+        display: none;
+    }
+
+    .nav-open .icon-mobile-nav[name="close-outline"] {
+        display: block;
+    }
+
+    .nav-open .icon-mobile-nav[name="menu-outline"] {
+        display: none;
+    }
+
+    .list-info {
+
+        flex-direction: column;
+        gap: 4.8rem;
+    }
+
+    .main-nav-link:link,
+    .main-nav-link:visited {
+        font-size: 3rem;
+    }
+
+
+    /*MOBILE NAVIGATION*/
+
+    .btn-mobile-nav {
+        display: block;
+    }
+
+    .menu {
+        background-color: rgba(242, 238, 238, 0.97);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        transform: translateX(0);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.5s ease-in;
+
+
+
+        /* hide navigation*/
+        /*allows ND transition*/
+        /* display: none; */
+
+        /*1)hide it visually*/
+        opacity: 0;
+
+        /*2)make it unaccessiable to mouse and keyboard*/
+        pointer-events: none;
+
+        /*3)hide it from screen readers*/
+        visibility: hidden;
+    }
+
+    .nav-open .menu {
+        opacity: 1;
+        pointer-events: auto;
+        visibility: visible;
+        transform: translateX(0);
+    }
+
+    .nav-open .icon-mobile-nav[name="close-outline"] {
+        display: block;
+    }
+
+    .nav-open .icon-mobile-nav[name="menu-outline"] {
+        display: none;
+    }
+}
+
+/************************************/
+/* bellow 400px (for  phones)*/
+/************************************/
+
+@media(max-width:25em) {
+    .second-heading {
+        gap: 3rem;
+        padding: 0px 2rem;
+
+    }
+
+    .account {
+        margin-left: 6rem;
+    }
+
+    .t-nav {
+        display: none;
+    }
+
+    .title {
+        font-size: 2.4rem;
+        height: 4rem;
+    }
+
+    .first-heading {
+
+        height: 9rem;
+    }
+
+    .first-p {
+        font-size: 1.2rem;
+    }
+
+    .list-info {
+        margin-right: -6rem;
+
+    }
+
+}
+
+/************************************/
+/* bellow 320px (for  phones)*/
+/************************************/
+@media(max-width:20em) {
+
+    /*  */
+    .dis-hide {
+        display: none;
+    }
+
+    .account {
+        margin-left: 2rem;
+    }
+
+    .first-p {
+        font-size: 1.6rem;
+    }
+
+    .t-nav {
+        display: none;
+    }
+
+    .title {
+        font-size: 2rem;
+        height: 4rem;
+    }
+
+    .second-heading {
+        gap: 2rem;
+        padding: 0 1rem;
+
+    }
+}
+
+
+
+/* ///////////////////////////////////////////////////////
+            footer css-query
+///////////////////////////////////////////////////////// */
+/*//////////////////////
+deging and process part
+////////////////////// */
+.design-parts {
+    padding: 15rem;
+}
+
+.design-part {
+    gap: 3rem;
+}
+
+.designing {
+    background-color: rgb(240, 240, 240);
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5 rem;
+    padding: 1.8rem;
+}
+
+.design-text {
+    color: red;
+    font-size: 3rem;
+    padding: 2.6rem 0;
+    font-family: sans-serif;
+}
+
+.design-dis {
+    line-height: 1.2;
+    font-size: 2.2rem;
+    color: black;
+    text-align: left;
+    padding: 2rem 0;
+    margin-bottom: 1.4rem;
+}
+
+
+.design-i {
+    width: 100%;
+    height: 100%;
+
+}
+
+.bg-btn {
+    text-decoration: none;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #f26924;
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    padding: 1rem 5rem;
+
+}
+
+.bg-btn-1 {
+    text-decoration: none;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #FAAC29;
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+
+}
+
+.bg-btn:hover,
+.bg-btn-1:hover {
+    background-color: #414142;
+
+}
+
+
+
+
+/* /////////////////////// */
+/*            12           */
+/*   testimonial           */
+/* /////////////////////// */
+.testimonial {
+    background-color: #faac29;
+    background-size: cover;
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 25rem;
+
+}
+
+.star-y {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.testimonial-p1 {
+    font-size: 2rem;
+    font-weight: 100;
+    line-height: 2.5rem;
+    color: #fff;
+    padding-top: 3rem;
+}
+
+.testimonial-p2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #fff;
+    padding-top: 5rem;
+}
+
+
+
+
+/***********************************/
+/*footer blackk*/
+/***********************************/
+
+.f-2 {
+    background-color: #414142;
+}
+
+.footer-flex {
+    /* height: 100%; */
+    /* width: 100%; */
+    background-color: #414142;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10rem;
+    padding: 6rem 21rem;
+}
+
+.footer-intro {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    color: #FFFFFF;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.5;
+    /* width: 100%; */
+}
+
+.footer-intro-2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: start;
+    color: #dddddd;
+    width: 70rem;
+    height: 100%;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-weight: 400;
+    gap: 2rem;
+}
+
+.footer-intro span {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #FAAC29;
+    margin-bottom: 1.5rem;
+}
+
+aside span {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #FAAC29;
+    margin-bottom: 1.5rem;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.f-a {
+    font-size: 1.8rem;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.f-a:hover {
+    text-decoration: underline;
+}
+
+
+
+/******************************* */
+/* footer yellow */
+/* ****************** */
+.footer-icon {
+    display: flex;
+}
+
+.f-3 {
+    background-color: #f26924;
+    padding: 0.9rem 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 86rem;
+    flex-direction: row;
+}
+
+.text-f-3 {
+    display: flex;
+    gap: 1.9rem;
+    align-items: center;
+}
+
+.t-f-3 {
+    font-size: 1.5rem;
+
+    color: #FFFFFF;
+}
+
+.img-f-3 {
+
+    padding: 0.5rem;
+    width: 4.2rem;
+    height: 4.2rem;
+}
+
+
+.icon-f-3 {
+    width: 8.2rem;
+    height: 6.2rem;
+}
+
+.icons-f-3 {
+    display: flex;
+    gap: 2.8rem;
+}
+
+.img-f-3:hover {
+    background-color: #414142;
+}
+
+.icon-f-3:hover {
+    background-color: #414142;
+    border-radius: 0.6rem;
+}
+
+/************************************/
+/* bellow 1344px (smaller desktop)*/
+/************************************/
+@media(max-width:84em) {
+
+    /* design parts */
+    .design-parts {
+        padding: 9rem
+    }
+
+    .design-text {
+        font-size: 2rem
+    }
+
+    .design-dis {
+        font-size: 2.1rem;
+    }
+
+    /* star footer */
+    .testimonial {
+        padding: 0 19rem;
+    }
+
+    /* footer black */
+    .footer-flex {
+        gap: 5rem;
+        padding: 10rem 10rem;
+    }
+
+    .footer-intro {
+        font-size: 1.8rem;
+    }
+
+    /* last footer */
+    /* ****************** */
+
+    .f-3 {
+        gap: 34rem;
+    }
+
+    .text-f-3 {
+        gap: 1.9rem;
+    }
+
+    .t-f-3 {
+        font-size: 2rem;
+    }
+}
+
+/************************************/
+/* bellow 1304px (for adjust ment)*/
+/************************************/
+@media(max-width:81.5em) {
+
+    /* star footer */
+    .testimonial {
+        padding: 0 13rem;
+    }
+
+    .testimonial-p1 {
+        font-size: 2rem;
+    }
+
+    /* footer black */
+    .info-f {
+        font-size: 1.6rem;
+
+    }
+
+    .footer-intro {
+        font-size: 1.7rem;
+    }
+
+    .f-a {
+        font-size: 1.6rem;
+
+    }
+
+    /* footer */
+    .text-f-3 {
+        display: flex;
+        flex-direction: row;
+        gap: 1.9rem;
+        align-items: center;
+    }
+
+
+}
+
+/************************************/
+/* bellow 1200px (for landscap tablets)*/
+/************************************/
+@media(max-width:75em) {
+
+    /* design parts */
+    .design-parts {
+        padding: 9rem;
+    }
+
+    .design-text {
+        font-size: 2rem
+    }
+
+    .design-dis {
+        font-size: 1.8rem;
+        line-height: 2.4rem;
+    }
+
+    .footer-flex {
+        gap: 5rem;
+        padding: 4rem 10rem;
+    }
+
+    .f-2 {
+        padding: 3rem 0rem;
+    }
+
+    /*  star footer*/
+    .testimonial {
+        padding: 0 18rem;
+    }
+
+    .testimonial-p1 {
+        font-size: 1.8rem;
+    }
+
+    /* footer black */
+
+    .footer-flex {
+        gap: 5rem;
+        padding: 4rem 10rem;
+    }
+
+    .f-2 {
+        padding: 3rem 0rem;
+    }
+
+    .footer-intro {
+        font-size: 1.6rem;
+    }
+
+    .f-a {
+        font-size: 1.6rem;
+
+    }
+
+    /* last footer */
+    /* ****************** */
+    .f-3 {
+        padding: 0.9rem 2rem;
+        gap: 35rem;
+    }
+
+    .text-f-3 {
+        gap: 1.4rem;
+    }
+
+    .t-f-3 {
+        font-size: 1.6rem;
+    }
+}
+
+/************************************/
+/* bellow 944px (for  tablets)*/
+/************************************/
+@media(max-width:59em) {
+    /* design parts */
+
+    .design-parts {
+        padding: 8rem;
+    }
+
+    .design-text {
+        font-size: 1.8rem;
+        padding: 0.6rem 0;
+    }
+
+    .design-dis {
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+
+    .bg-btn {
+        font-size: 1.2rem;
+        padding: 1rem 3rem;
+    }
+
+    .bg-btn-1 {
+        font-size: 1.2rem;
+    }
+
+
+
+
+    /* star foooter  */
+    .testimonial {
+        padding: 0 16rem;
+    }
+
+    .testimonial-p1 {
+        font-size: 1.8rem;
+    }
+
+
+
+    /* footer black */
+
+    .footer-flex {
+        gap: 3rem;
+        padding: 3rem 1rem;
+    }
+
+    .footer-intro {
+        font-size: 1.4rem;
+    }
+
+    .f-a {
+        font-size: 1.4rem;
+
+    }
+
+
+    /* last footer */
+    /* ****************** */
+    .f-3 {
+        padding: 0.9rem 2rem;
+        gap: 20rem;
+    }
+
+    .t-f-3 {
+        font-size: 1.6rem;
+    }
+
+    .icon-f-3 {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .icons-f-3 {
+        gap: 1.2rem;
+    }
+
+
+}
+
+/************************************/
+/* bellow 704px (for  samaller tablets)*/
+/************************************/
+@media(max-width:44em) {
+
+    /* design-part */
+    .design-part {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .design-text {
+        font-size: 2.4rem;
+
+    }
+
+    /* star footer  */
+    .testimonial {
+        padding: 0 10rem;
+    }
+
+    .testimonial-p1 {
+        font-size: 1.6rem;
+    }
+
+    /* footer black */
+
+    .f-2 {
+        padding: 3rem 1rem;
+    }
+
+    .footer-intro-2 {
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 0;
+        column-gap: 2rem;
+        width: 40rem;
+    }
+
+    .footer-flex {
+        padding: 1rem 3rem;
+    }
+
+    .f-a {
+        font-size: 1.4rem;
+    }
+
+    /* last footer */
+
+    .f-3 {
+        padding: 0.9rem 1rem;
+        gap: 13rem;
+    }
+
+    .t-f-3 {
+        font-size: 1.4rem;
+    }
+
+    .icon-f-3 {
+        width: 4rem;
+        height: 4rem;
+    }
+
+}
+
+/************************************/
+/* bellow 544px (for  phones)*/
+/************************************/
+@media(max-width:34em) {
+
+    /* design section */
+    .design-parts {
+        padding: 3rem;
+    }
+
+    /* star footer */
+    .testimonial {
+        padding: 0 10rem;
+    }
+
+    .testimonial-p1 {
+        font-size: 1.4rem;
+    }
+
+    /* footer black */
+    .grid--footer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        text-align: center;
+    }
+
+    .footer-flex {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .footer-intro-2 {
+        column-gap: 2rem;
+        width: 40rem;
+    }
+
+    .f-a {
+        font-size: 1.4rem;
+    }
+
+    .f-2 {
+        padding: 3rem 6rem;
+    }
+
+    /* last footer */
+
+
+    .t-f-3 {
+        font-size: 2rem;
+    }
+
+    .text-f-3 {
+        display: flex;
+        flex-direction: column;
+        gap: 1.9rem;
+        align-items: center;
+    }
+
+    .icons-f-3 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .f-3 {
+        padding: 0.9rem 1rem;
+        gap: 14rem;
+    }
+
+    .t-f-3 {
+        font-size: 2rem;
+    }
+
+    .icon-f-3 {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .f-3 {
+        padding: 0.9rem 5rem;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .f-3 {
+        padding: 0.9rem 5rem;
+    }
+}
+
+/***********************/
+/*BELOW 400px (phone)*/
+/***********************/
+@media(max-width:25em) {
+
+    /* design part */
+
+
+    .design-cols {
+        grid-template-columns: 1fr;
+    }
+
+    .design-parts {
+        padding: 4rem;
+    }
+
+    .designing {
+        padding: 4rem 22px;
+    }
+
+    /* star footer */
+    .testimonial {
+        padding: 0 4rem;
+    }
+
+    .testimonial-p1 {
+        font-size: 1.4rem;
+    }
+
+    /*footer black  */
+
+    .footer-flex {
+        padding: 1rem 0rem;
+    }
+
+    .footer-intro-2 {
+        column-gap: 2rem;
+        width: 30rem;
+    }
+
+    .f-a {
+        font-size: 1.4rem;
+    }
+
+    /* last footer */
+    .t-f-3 {
+        font-size: 1.6rem;
+    }
+}
+
+/***********************/
+/*BELOW 320px (phone)*/
+/***********************/
+
+@media(max-width:20em) {
+
+    /* design-part */
+    .design-parts {
+
+        padding: 3rem;
+    }
+
+    /* star footer */
+    .testimonial {
+        padding: 0 1rem;
+    }
+
+    .testimonial-p1 {
+        font-size: 1.4rem;
+    }
+
+    .star {
+        padding-top: 3rem;
+    }
+
+    .testimonial-p2 {
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+    }
+
+    /* black footer */
+    .footer-flex {
+        padding: 1rem 0rem;
+    }
+
+    .footer-intro-2 {
+        column-gap: 2rem;
+        width: 30rem;
+    }
+
+    .f-a {
+        font-size: 1.4rem;
+    }
+
+    .f-2 {
+        padding: 3rem 1rem;
+    }
+
+
+
+
+}
